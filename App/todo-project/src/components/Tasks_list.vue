@@ -43,7 +43,11 @@ export default {
     deleteAll(){
       this.todos = [];
     }
-   }
+   },
+   directives:{},
+   //metodos directivas
+
+
 }
 </script>
 <style>

@@ -1,0 +1,26 @@
+<base-layout>
+  <template slot="header">
+    <h1>Header de la página</h1>
+  </template>
+
+  <p>Contenido de la página</p>
+
+  <template slot="footer">
+    <p>Footer de la página</p>
+  </template>
+</base-layout>
+
+
+SLots define el nombre del tag cuando se renderize vue
+
+<div class="container">
+  <header>
+    <h1>Header de la página</h1>
+  </header>
+  <main>
+    <p>Contenido de la página</p>
+  </main>
+  <footer>
+    <p>Footer de la página</p>
+  </footer>
+</div>
